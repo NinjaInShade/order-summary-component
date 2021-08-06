@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--pale-blue);
   min-height: 100vh;
   padding: 75px 30px;
 }
@@ -62,13 +63,11 @@ h1 {
 
 @media (max-width: 375px) {
   :root {
-    --h2: 1.25rem;
-    --h2-letter-spacing: -0.25px;
+    --h1: 22px;
 
-    --h3: 0.938rem;
-    --h3-letter-spacing: -0.19px;
+    --body: 0.938rem;
+    --body-line-height: 25px;
 
-    --body: 0.875rem;
-    --body-letter-spacing: -0.17px;
+    --body-s: 0.813rem;
   }
 }
