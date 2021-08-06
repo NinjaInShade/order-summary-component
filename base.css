@@ -37,7 +37,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--pale-blue);
+  background: no-repeat url('./assets/pattern-background-desktop.svg') top;
+  background-color: var(--pale-blue);
   min-height: 100vh;
   padding: 75px 30px;
 }
@@ -62,6 +63,11 @@ h1 {
 }
 
 @media (max-width: 375px) {
+  body {
+    background: no-repeat url('./assets/pattern-background-mobile.svg') top;
+    background-color: var(--pale-blue);
+  }
+
   :root {
     --h1: 22px;
 
