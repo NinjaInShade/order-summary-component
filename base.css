@@ -12,74 +12,46 @@
   font-size: 16px;
 
   /* Primary */
-  --cyan: #2ab3b1;
-  --green: #c0df33;
+  --dark-blue: #1f2f56;
+  --blue: #3829e0;
+  --pale-blue: #e0e8ff;
+  --very-pale-blue: #7280a7;
 
   /* Neutral */
-  --gray: #9aa7be;
-  --light-gray: #e6eff5;
+  --light: #f5f7ff;
 
   /* Typography */
-  --h2: 1.5rem;
-  --h2-letter-spacing: -0.3px;
-
-  --h3: 1.125rem;
-  --h3-line-height: 20px;
-  --h3-letter-spacing: -0.22px;
-
-  --emphasised: 2rem;
-  --emphasised-letter-spacing: -0.4px;
+  --h1: 1.75rem;
 
   --body: 1rem;
   --body-line-height: 26px;
-  --body-letter-spacing: -0.2px;
-
-  --button: 1rem;
-  --button-line-height: 26px;
-  --button-letter-spacing: -0.2px;
 
   --body-s: 0.875rem;
-  --body-s-line-height: 20px;
-  --body-s-letter-spacing: -0.17px;
 
-  --container-max-width: 635px;
+  --button: 0.938rem;
+
+  --container-max-width: 450px;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--light-gray);
   min-height: 100vh;
   padding: 75px 30px;
 }
 
-h2 {
-  font-size: var(--h2);
-  letter-spacing: var(--h2-letter-spacing);
-}
-
-h3 {
-  font-size: var(--h3);
-  line-height: var(--h3-line-height);
-  letter-spacing: var(--h3-letter-spacing);
+h1 {
+  font-size: var(--h1);
 }
 
 .body-text {
   font-size: var(--body);
   line-height: var(--body-line-height);
-  letter-spacing: var(--body-letter-spacing);
 }
 
 .body-s-text {
   font-size: var(--body-s);
-  line-height: var(--body-s-line-height);
-  letter-spacing: var(--body-s-letter-spacing);
-}
-
-.emphasised-text {
-  font-size: var(--emphasised);
-  letter-spacing: var(--emphasised-letter-spacing);
 }
 
 .container {

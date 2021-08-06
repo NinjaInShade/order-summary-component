@@ -2,7 +2,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: var(--button-letter-spacing);
-  line-height: var(--button-line-height);
   font-size: var(--button);
 }
