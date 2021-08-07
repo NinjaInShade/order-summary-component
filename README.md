@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/price-grid-component-with-css-vars-D95RbnWfj) -->
-<!-- - Live Site URL: (https://lm-price-grid-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV)
+- Live Site URL: (https://lm-order-summary-component.netlify.app/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I can't lie, I learnt nothing really here. I just practiced my responsive skills and semantic HTML. One thing I did was the mobile design was designed for 375px, but I felt was very squished, so just below that breakpoint, I changed the subscription plan section with the pricing and plan to a column layout to account for even smaller screens.
 
 ## Author
 
