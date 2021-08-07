@@ -77,3 +77,8 @@
   margin-top: 6px;
   font-weight: 500;
 }
+
+.cancel-order-btn {
+  margin-top: 15px;
+  width: 100%;
+}

@@ -2,5 +2,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
   font-size: var(--button);
+  padding: 15px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--blue);
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  border-radius: 11px;
+  font-weight: 900;
+}
+
+.btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--blue-hover);
+}
+
+.btn-secondary {
+  color: var(--very-pale-blue);
+  font-weight: 900;
+}
+
+.btn-secondary:hover {
+  transition: all 0.2s ease-in-out;
+  color: var(--dark-blue);
 }
