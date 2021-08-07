@@ -5,8 +5,12 @@
   box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
 }
 
+.card-img {
+  width: 100%;
+}
+
 .card-content {
-  padding: 40px 48px 33px 48px;
+  padding: 40px 48px 32px 48px;
 }
 
 .card-title,
@@ -16,7 +20,7 @@
 
 .card-title {
   color: var(--dark-blue);
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 .card-description {
@@ -81,4 +85,32 @@
 .cancel-order-btn {
   margin-top: 15px;
   width: 100%;
+}
+
+@media (max-width: 450px) {
+  .card-content {
+    padding: 32px 24px 16px 24px;
+  }
+
+  .card-plan-container {
+    margin: 24px 0;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-plan-container,
+  .card-plan-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-plan-circle {
+    margin: 0 0 20px 0;
+  }
+
+  .card-plan-change {
+    margin-top: 24px;
+  }
 }
