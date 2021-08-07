@@ -1,0 +1,79 @@
+.card {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+
+.card-content {
+  padding: 40px 48px 33px 48px;
+}
+
+.card-title,
+.card-description {
+  text-align: center;
+}
+
+.card-title {
+  color: var(--dark-blue);
+  margin-bottom: 17px;
+}
+
+.card-description {
+  color: var(--very-pale-blue);
+}
+
+.card-plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light);
+  margin: 20px 0 32px 0;
+  border-radius: 11px;
+  padding: 24px;
+}
+
+.card-plan-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-plan-change {
+  text-decoration: underline;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.card-plan-change:hover {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: var(--blue-hover);
+}
+
+.card-plan-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-blue);
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 48px;
+  height: 48px;
+}
+
+.card-plan-type,
+.card-plan-price {
+  line-height: normal;
+}
+
+.card-plan-type {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.card-plan-price {
+  color: var(--very-pale-blue);
+  margin-top: 6px;
+  font-weight: 500;
+}

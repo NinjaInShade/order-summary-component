@@ -13,12 +13,15 @@
 
   /* Primary */
   --dark-blue: #1f2f56;
+
   --blue: #3829e0;
-  --pale-blue: #e0e8ff;
+  --blue-hover: #766cf1;
+
+  --pale-blue: #dfe6fb;
   --very-pale-blue: #7280a7;
 
   /* Neutral */
-  --light: #f5f7ff;
+  --light: #f7f9ff;
 
   /* Typography */
   --h1: 1.75rem;
@@ -38,6 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   background: no-repeat url('./assets/pattern-background-desktop.svg') top;
+  background-size: contain;
   background-color: var(--pale-blue);
   min-height: 100vh;
   padding: 75px 30px;
