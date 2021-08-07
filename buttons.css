@@ -25,6 +25,7 @@
 }
 
 .btn-secondary {
+  border: 1px solid transparent;
   color: var(--very-pale-blue);
   font-weight: 900;
 }
