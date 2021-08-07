@@ -7,6 +7,7 @@
   border: none;
   cursor: pointer;
   font-size: var(--button);
+  border-radius: 11px;
   padding: 15px;
 }
 
@@ -14,11 +15,11 @@
   color: #fff;
   background-color: var(--blue);
   box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
-  border-radius: 11px;
   font-weight: 900;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
   transition: all 0.2s ease-in-out;
   background-color: var(--blue-hover);
 }
@@ -28,7 +29,12 @@
   font-weight: 900;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-secondary:focus {
   transition: all 0.2s ease-in-out;
   color: var(--dark-blue);
+}
+
+.btn-secondary:focus {
+  border: 1px solid var(--dark-blue);
 }
